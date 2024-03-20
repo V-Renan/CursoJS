@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Meu HTML</title>
+
+    <style>
+        h1 {
+            background: red;
+        }
+        .img-in-test {
+            width: 50px;
+            height: 44px;
+        }
+        .tamanho-span {
+            font-size: 24px;
+        }
+        .div-blue {
+            color: blue;
+            font-size: 24px;
+        }
+    </style>
+</head>
+<body>
+    <h1>Tags para Texto</h1>
+    <h1>teste</h1>
+
+    <p><b>Lorem</b> <strong>ipsum</strong> <i>dolor</i> <em>sit</em> <a href="https://developer.mozilla.org/pt-BR/docs/Web/HTML/Element/a" target="_blank">amet</a> <img class="img-in-test" src="https://icon-library.com/images/black-cat-icon/black-cat-icon-9.jpg" alt="icon black cat"> <del>vermelho</del> <ins>preto</ins> <s>consectetur</s> <u>adipisicing</u> <small>elit.</small> 2<sup>2</sup> Excepturi, ducimus H<sub>2</sub>O sudeserunt <br> at temporibus quis provident distinctio voluptatem ullam maxime, <q cite="https://www.google.com/search?sca_esv=7a2ea2d467a33581&q=black+cat&tbm=isch&source=lnms&prmd=ivsnmbtz&sa=X&ved=2ahUKEwi_yOaN14KFAxUnqZUCHTL1AdMQ0pQJegQIEhAB&biw=1870&bih=961&dpr=1">black cat</q> sunt autem architecto voluptate. Qui omnis error non ex repudiandae!</p>
+    <hr>
+    <p><span style="color: blueviolet;" class="tamanho-span">Lorem</span> ipsum dolor sit amet consectetur adipisicing elit. Minus quidem voluptate deserunt.</p>
+    <hr>
+    <pre>
+        <code>
+            let soma = 0;
+
+            inputMais.forEach((input) => {
+                const valor = input.value;
+                const numero = Number(valor);
+
+                if (numero) {
+                    soma += numero;
+                }
+                
+                console.log(soma);
+            });
+        </code>
+    </pre>
+
+    <blockquote cite="https://www.google.com/search?sca_esv=7a2ea2d467a33581&q=black+cat&tbm=isch&source=lnms&prmd=ivsnmbtz&sa=X&ved=2ahUKEwi_yOaN14KFAxUnqZUCHTL1AdMQ0pQJegQIEhAB&biw=1870&bih=961&dpr=1"><p>Aqui sim eu estou fazendo um bloco de citacao.</p></blockquote>
+    <div class="div-blue">Eu sou um bloco.</div>
+</body>
+</html>
