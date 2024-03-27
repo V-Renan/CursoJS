@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+
+        label {
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+    <form action="#" method="get" target="_blank" autocomplete="off">
+        <p>O meu formulario</p>
+        <p>
+            <label for="nome">Nome:</label>
+                <input type="text" id="nome" name="nome" placeholder="Seu nome">
+        </p>
+
+        <p>
+            <label for="dev">Dev:</label>
+                <input type="checkbox" id="dev" name="dev" value="sim">
+        </p>
+
+        <p>
+            Genero:<br>
+            <label for="feminino">Feminino</label>
+            <input type="radio" id="feminino" name="genero"> <br>
+
+            <label for="masculino">Masculino</label>
+            <input type="radio" id="masculino" name="genero"> <br>
+
+            <label for="outros">Outros</label>
+            <input type="radio" id="outros" name="genero"> <br>
+
+            <label for="nao_informado">Prefiro nao informar</label>
+            <input type="radio" id="nao_informado" name="genero" checked> 
+        </p>
+
+        <p>
+            <button type="submit">Reset</button>
+            <button type="submit">Enviar</button>
+        </p>
+    </form>
+</body>
+</html>
