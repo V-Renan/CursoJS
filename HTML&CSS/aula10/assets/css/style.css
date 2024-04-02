@@ -3,10 +3,18 @@
     padding: 0;
 }
 
-p {
+.color-red {
     color: red;
 }
 
-body div section p {
-    color: blueviolet;
+body div.main-content h2.heading {
+    font-style: italic;
+    color: palegreen;
+}
+div {
+    margin-left: 20px;
+}
+
+.pai .filha{
+    color: red;
 }
